@@ -110,14 +110,14 @@ void buscarElemento()
 	int num;
 	bool encontrado = false;
 
-	cout << "Digite um numero: ";
+	cout << "Digite um número: ";
 	cin >> num;
 
 	for (int i = 0; i < nElementos; i++)
 	{
 		if (num == lista[i])
 		{
-			cout << "Elemento encontrado na posicao: " << i+1 << endl;
+			cout << "Elemento encontrado na posição: " << i+1 << endl;
 			encontrado = true;
 		}
 	}
