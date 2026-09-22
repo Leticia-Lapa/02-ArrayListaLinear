@@ -52,9 +52,7 @@ void menu()
 			break;
 		case 5: inserirElemento();
 			break;
-		case 6: buscarElemento();
-			break;
-		case 7:
+		case 6:
 			return;
 		default:
 			break;
@@ -115,13 +113,15 @@ void buscarElemento()
 
 	for (int i = 0; i < nElementos; i++)
 	{
+
 		if (num == lista[i])
 		{
 			cout << "Elemento encontrado na posicao: " << i+1 << endl;
 			encontrado = true;
+
 		}
 	}
-
+	
 	if (encontrado == false) {
 		cout << "Elemento nao encontrado" << endl;
 	}
